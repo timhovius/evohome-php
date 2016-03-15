@@ -98,6 +98,30 @@ class Service
         return $response;
     }
 
+    public function setZoneStatusNormal($zone)
+    {
+    }
+
+    public function setZoneStatusCustom($zone, \DateTime $until = null)
+    {
+    }
+
+    public function setZoneStatusEco($zone, \DateTime $until = null)
+    {
+    }
+
+    public function setZoneStatusAway($zone, \DateTime $until = null)
+    {
+    }
+
+    public function setZoneStatusDayOff($zone, \DateTime $until = null)
+    {
+    }
+
+    public function setZoneStatusHeatingOff($zone, \DateTime $until = null)
+    {
+    }
+
     public function sendRequest(TokenAbstract $request)
     {
         if (!$this->token instanceof Token) {
